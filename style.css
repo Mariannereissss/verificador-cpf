@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif, Arial;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+}
+
+#cpff {
+    padding: 20px 16px;
+    border-radius: 10px;
+    width: 300px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0 , 0, 0, 0.5);
+}
+
+#bot {
+    padding: 10px 5px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background-color: #d414d7;
+    color: white;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 5px rgba(0 , 0, 0, 0.5);
+}
